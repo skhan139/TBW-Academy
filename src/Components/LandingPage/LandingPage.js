@@ -30,6 +30,7 @@ function LandingPage() {
         <div className="landing__text">
           <div className="landing__headings">
             <h1 className="landing__heading">
+              Take Your Game To The Next Level.
             </h1>
             <div className="landing__subheading">
               Watch anywhere. Cancel anytime.
