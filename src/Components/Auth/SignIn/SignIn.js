@@ -5,7 +5,7 @@ import "./SignIn.css";
 import { auth, provider } from "../../../Config/firebase";
 import { actionType } from "../../../ContextApi/reducer";
 import Loading from "../../Loading/Loading";
-import netflixLogo from "../../../Images/netflixLogo.png";
+import netflixLogo from "../../../Images/landingPage.png";
 
 function SignIn() {
   const [email, setEmail] = useState("");

@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "header": "What is Netflix?",
-    "body": "Netflix is a streaming service that offers a wide variety of award-winning TV programmes, films, anime, documentaries and more – on thousands of internet-connected devices.\n\nYou can watch as much as you want, whenever you want, without a single advert – all for one low monthly price. There's always something new to discover, and new TV programmes and films are added every week!"
+    "header": "What is TBW Academy?",
+    "body": "TBW Academy is an online player development portal that offers instructional vidoes, 1 on 1 instruction with TBW Coaches, and allows athletes to build a player resume making them more visbale to college coaches and professional scouts."
   },
   {
     "id": 2,
-    "header": "How much does Netflix cost?",
+    "header": "How much does TBW Academy cost?",
     "body": "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 199 to ₹ 799 a month. No extra costs, no contracts."
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "id": 5,
-    "header": "What can I watch on Netflix?",
+    "header": "What can I watch on TBW Academy?",
     "body": "Netflix has an extensive library of feature films, documentaries, TV programmes, anime, award-winning Netflix originals, and more. Watch as much as you want, any time you want."
   }
 ]

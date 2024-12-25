@@ -6,7 +6,7 @@ import Collapsible from "../Collapsible/Collapsible";
 import faqData from "../../Fixtures/faq.json";
 import jumboData from "../../Fixtures/jumbo.json";
 import { Link, useHistory } from "react-router-dom";
-import netflixLogo from "../../Images/netflixLogo.png";
+import netflixLogo from "../../Images/landingPage.png";
 
 function LandingPage() {
   const history = useHistory();
@@ -30,7 +30,6 @@ function LandingPage() {
         <div className="landing__text">
           <div className="landing__headings">
             <h1 className="landing__heading">
-              Unlimited movies, TV shows and more.
             </h1>
             <div className="landing__subheading">
               Watch anywhere. Cancel anytime.

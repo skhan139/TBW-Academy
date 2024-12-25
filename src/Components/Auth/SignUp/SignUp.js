@@ -4,7 +4,7 @@ import { Link, useHistory } from "react-router-dom";
 import { auth } from "../../../Config/firebase";
 import { LockOpen } from "@material-ui/icons";
 import Loading from "../../Loading/Loading";
-import netflixLogo from "../../../Images/netflixLogo.png";
+import netflixLogo from "../../../Images/landingPage.png";
 
 function SignUp() {
   const [email, setEmail] = useState("");

@@ -8,7 +8,7 @@ import { auth } from "../../Config/firebase";
 import { actionType } from "../../ContextApi/reducer";
 import { useStateValue } from "../../ContextApi/stateProvider";
 import { ClickAwayListener } from "@material-ui/core";
-import netflixLogo from "../../Images/netflixLogo.png";
+import netflixLogo from "../../Images/landingPage.png";
 import { truncate } from "../../Utils/truncate";
 
 function Nav() {
