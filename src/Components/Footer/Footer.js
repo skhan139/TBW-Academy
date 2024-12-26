@@ -32,7 +32,7 @@ function Footer() {
             <li>Account</li>
             <li>Ways to Watch</li>
             <li>Corporate Information</li>
-            <li>Netflix Originals</li>
+            <li><a href="https://www.thebaseballwarehouse.com/">The Baseball Warehouse</a></li>
           </ul>
           <ul className="footer__link4">
             <li>Media Centre</li>
