@@ -1,5 +1,5 @@
 {
-  "name": "netflix-clone",
+  "name": "tbw-academy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,8 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.1",
     "axios": "^0.21.1",
-    "firebase": "^8.2.3",
+    "dotenv": "^16.4.7",
+    "firebase": "^8.10.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-loader-spinner": "^3.1.14",

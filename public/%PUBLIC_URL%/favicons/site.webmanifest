@@ -1,7 +1,7 @@
 {
-    "name": "Netflix Clone",
-    "short_name": "Netflix Clone",
-    "description": "A Netflix Clone Progressive Web App build with ❤️ by Piyush Sati",
+    "name": "TBW Academy",
+    "short_name": "TBW Academy",
+    "description": "A TBW Progressive Web App built by Sami Khan",
     "icons": [
         {
             "src": "/favicons/android-chrome-192x192.png",
