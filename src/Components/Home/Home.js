@@ -18,7 +18,7 @@ function Home() {
       <Banner />
       {param === undefined && (
         <Row
-          title="Trending Now"
+          title="Athlete Highlights"
           isLargeRow
           fetchUrl={requests.fetchTrending}
         />
@@ -28,17 +28,17 @@ function Home() {
         <>
           {param === "tv" && (
             <Row
-              title="Trending Now"
+              title="Offensive Instruction"
               isLargeRow
               fetchUrl={requests.fetchTrendingTV}
             />
           )}
-          <Row title="Popular on Netflix" fetchUrl={requests.fetchPopularTV} />
+          <Row title="Defensive Instruction" fetchUrl={requests.fetchPopularTV} />
           <Row
-            title="Netflix Originals"
+            title="Brain Dump"
             fetchUrl={requests.fetchNetflixOriginalsTV}
           />
-          <Row title="New Releases" fetchUrl={requests.fetchAiringTodayTV} />
+          <Row title="Strength and Conditioning" fetchUrl={requests.fetchAiringTodayTV} />
         </>
       )}
 
