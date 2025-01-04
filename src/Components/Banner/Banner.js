@@ -96,7 +96,7 @@ function Banner() {
         <div className="banner__contents">
           {history.location.pathname !== "/browse/movies" && (
             <h2 className="banner__contentType">
-              <span>NETFLIX</span> ORIGINAL
+              <span>TBW ACADEMY</span> ORIGINAL
             </h2>
           )}
           <h1 className="banner__title">

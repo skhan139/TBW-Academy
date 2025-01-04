@@ -103,7 +103,7 @@ function Nav() {
                 }
                 onClick={() => history.push("/browse/tv")}
               >
-                TV Shows
+                Player Highlights
               </span>
 
               <span
@@ -114,7 +114,7 @@ function Nav() {
                 }
                 onClick={() => history.push("/browse/movies")}
               >
-                Movies
+                Instruction
               </span>
 
               <span
@@ -125,7 +125,7 @@ function Nav() {
                 }
                 onClick={() => history.push("/browse/latest")}
               >
-                New & Popular
+                Brain Dump
               </span>
             </div>
           </div>
@@ -244,7 +244,7 @@ function Nav() {
                     signOut();
                   }}
                 >
-                  Sign out of Netflix
+                  Sign out of TBW Academy
                 </li>
               </ul>
             </div>

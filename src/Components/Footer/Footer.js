@@ -17,7 +17,7 @@ function Footer() {
             <li>Privacy</li>
             <li className="hide__link">Corporate Information</li>
             <li>Speed Test</li>
-            <li className="hide__link">Netflix Originals</li>
+            <li className="hide__link">TBW Academy Originals</li>
           </ul>
           <ul>
             <li>Help Center</li>
