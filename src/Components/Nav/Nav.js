@@ -66,7 +66,7 @@ function Nav() {
   //just for indication
   const dropClickHandler = () => {
     alert(
-      "Not added this functionality.\nClick on signout option in dropdown menu to signout of Netflix."
+      "Not added this functionality.\nClick on signout option in dropdown menu to signout of TBW Academy."
     );
   };
 
