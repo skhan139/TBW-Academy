@@ -103,7 +103,7 @@ function Nav() {
                 }
                 onClick={() => history.push("/browse/tv")}
               >
-                Player Highlights
+                Athlete Page
               </span>
 
               <span

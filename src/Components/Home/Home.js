@@ -28,12 +28,12 @@ function Home() {
         <>
           {param === "tv" && (
             <Row
-              title="Offensive Instruction"
+              title="Game Highlights"
               isLargeRow
               fetchUrl={requests.fetchTrendingTV}
             />
           )}
-          <Row title="Defensive Instruction" fetchUrl={requests.fetchPopularTV} />
+          <Row title="Training Highlights" fetchUrl={requests.fetchPopularTV} />
           <Row
             title="Brain Dump"
             fetchUrl={requests.fetchNetflixOriginalsTV}
@@ -71,17 +71,17 @@ function Home() {
           {/*<Row title="Recently Added" fetchUrl={requests.fetchNowPlayingMovies} />*/}
           {param === "movies" && (
             <Row
-              title="Trending Now"
+              title="Favorited Instruction Videos"
               isLargeRow
               fetchUrl={requests.fetchTrendingMovie}
             />
           )}
-          <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
-          <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
-          <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
-          <Row title="Romantic Movies" fetchUrl={requests.fetchRomanceMovies} />
+          <Row title="Defensive Instruction" fetchUrl={requests.fetchActionMovies} />
+          <Row title="Offensive Instruction" fetchUrl={requests.fetchComedyMovies} />
+          <Row title="Pitching Instruction" fetchUrl={requests.fetchHorrorMovies} />
+          <Row title="Baserunning" fetchUrl={requests.fetchRomanceMovies} />
           <Row
-            title="Documentaries"
+            title="Arm Care And Velocity Development"
             fetchUrl={requests.fetchDocumentariesMovies}
           />
         </>
@@ -90,13 +90,13 @@ function Home() {
       {param === "latest" && (
         <>
           <Row
-            title="Worth the Wait"
+            title="Offensive Approach"
             isLargeRow
             fetchUrl={requests.fetchPopularTV}
           />
-          <Row title="New on Netflix" fetchUrl={requests.fetchAiringTodayTV} />
+          <Row title="Baseball IQ" fetchUrl={requests.fetchAiringTodayTV} />
           <Row
-            title="Coming This Week"
+            title="Lessons From The Pros"
             fetchUrl={requests.fetchNowPlayingMovies}
           />
         </>
